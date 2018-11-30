@@ -5,7 +5,7 @@ class MessagesHeader extends React.Component {
   render() {
     return (
       <Segment clearing>
-        <Header fluid="true" as={h2} floated="left" style={{ marginBottom: 0 }}>
+        <Header fluid="true" as="h2" floated="left" style={{ marginBottom: 0 }}>
           <span>
             Channel
             <Icon name="star outline" color="black" />

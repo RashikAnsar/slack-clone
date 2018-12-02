@@ -32,9 +32,7 @@ class MetaPanel extends React.Component {
           <Image avatar src={value.avatar} />
           <List.Content>
             <List.Header as="a">{key}</List.Header>
-            <List.Description>
-              {this.formatCount(value.count)} posts
-            </List.Description>
+            <List.Description>{this.formatCount(value.count)}</List.Description>
           </List.Content>
         </List.Item>
       ))
